@@ -77,7 +77,7 @@ image:hover{
 }
 
 #home {
-	background-image: url("images/Heroimage.jpg");
+	background-image: url("images/HeroImage.jpg");
 	background-repeat: round;
 	background-attachment: fixed;
 	display: table;
