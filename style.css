@@ -207,7 +207,7 @@ border-radius:  10px;
 }
 
 .card-title {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
 }
 
 .card-subtitle {
@@ -269,14 +269,33 @@ border-radius:  10px;
     border-bottom: 0;
 }
 
+.btn-primary {
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #33b73a;
+    border-color: #32a42e;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #50e057;
+    border-color: #32a42e;
+}
+
+.btn-primary.active{
+    color: #fff;
+    background-color: #358f39;
+    border-color: #32a42e;
+}
+
 .card-header-pills {
     margin-right: -0.625rem;
     margin-left: -0.625rem;
 }
 
 .card-primary {
-    background-color: #0275d8;
-    border-color: #0275d8;
+    background-color: #02d830;
+    border-color: #02d849;
 }
 
 .card-primary .card-header,
@@ -295,8 +314,8 @@ border-radius:  10px;
 }
 
 .card-info {
-    background-color: #5bc0de;
-    border-color: #5bc0de;
+    background-color: #5bde71;
+    border-color: #71de5b;
 }
 
 .card-info .card-header,
