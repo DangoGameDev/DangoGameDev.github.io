@@ -45,6 +45,7 @@
         </div>
         <div class="col-sm-6 my-auto text-center">
           <h2>I'm Shane, aka DangoGameDev</h2>
+          <br>
           <p class="landing-text">I'm a game developer who adores creating things. Game and Level Design are my passions.
           <br>
           <br>
@@ -269,5 +270,27 @@
   });
 })();
   </script> 
+
+<script>
+  (function($) {
+$.fn.pagefade = function(fadein, fadeout) {
+        this.css("display", "none");
+        this.fadeIn(fadein);
+  $("a").click(function(event) {
+event.preventDefault();
+linkLocation = this.href;
+this.fadeOut(fadeout, redirectPage);
+  });
+  function redirectPage() {
+window.location.disabled= linkLocation;
+  }
+  return this;
+};
+}(jQuery));
+
+  $(document).ready(function() { 
+  $("#Landing").pagefade(1000, 1000); 
+  });
+  </script>
 </body>
 </html>
