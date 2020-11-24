@@ -151,7 +151,7 @@ border-radius:  10px;
 
 
 #home {
-    background-image: url("images/HeroImage.png");
+    background-image: url("images/HeroImage.jpg");
     background-size: cover;
 	background-repeat: round;
 	background-attachment: fixed;
@@ -163,7 +163,7 @@ border-radius:  10px;
 }
 
 #skills {
-    background-image: url("images/ThroneRoom.PNG");
+    background-image: url("images/ThroneRoom.jpg");
     background-size: cover;
 	background-repeat: round;
 	background-attachment: fixed;
@@ -174,7 +174,7 @@ border-radius:  10px;
 	color: #e8e8e8;
 }
 #work {
-    background-image: url("images/DungeonBG.png");
+    background-image: url("images/DungeonBG.jpg");
     background-size: cover;
 	background-repeat: round;
 	background-attachment: fixed;
@@ -185,7 +185,7 @@ border-radius:  10px;
 	color: #e8e8e8;
 }
 #contact {
-    background-image: url("images/BG4.PNG");
+    background-image: url("images/BG4.jpg");
     background-size: cover;
 	background-repeat: round;
 	background-attachment: fixed;
