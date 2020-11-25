@@ -62,7 +62,7 @@
     <div class="container">
       <div class="row" id="SkillsTab" >
         <div class="col-sm-12 text-center">
-          <h1>My Stats</h1>
+          <h1>My Skills</h1>
         </div>
         <div class="col-sm-4">
           <h1>Skills</h1>
@@ -242,7 +242,7 @@
           // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
           $('html, body').animate({
             scrollTop: $(hash).offset().top
-          }, 800, function(){
+          }, 100, function(){
     
             // Add hash (#) to URL when done scrolling (default click behavior)
             window.location.hash = hash;
@@ -261,7 +261,7 @@
     if(delay) return;
 
     delay = true;
-    setTimeout(function(){delay = false},200)
+    setTimeout(function(){delay = false},100)
 
     var wd = event.originalEvent.wheelDelta || -event.originalEvent.detail;
 
