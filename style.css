@@ -77,6 +77,13 @@ image:hover{
 	width: 70%;
 }
 
+#CV {
+    padding-top: 20px;
+    position: relative;
+    width: 75%;
+    height: 75%;
+}
+
 #Landing{
 	margin-top: 200px;
 }
